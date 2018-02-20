@@ -6,7 +6,7 @@ Follow the instructions line-by-line.
 * Enter, tab, up and down are represented by <ENTER><TAB>,<UP> and <DOWN>.  
 * "No output" or "nothing happens" are valid answers to any of the questions.
 ==========
-
+no output
 ==========
 1. Open a new terminal window.
 [NO OUTPUT]
@@ -36,7 +36,7 @@ $ touch foo.txt
 $ ls
 Copy and paste the output below.
 ----------
-
+foo.txt
 
 
 ==========
@@ -45,7 +45,7 @@ Copy and paste the output below.
 $ touch bar.txt
 ----------
 
-
+bar.txt	foo.txt
 
 ==========
 8. List the files in this directory using the flag that gives the most details.
@@ -54,27 +54,32 @@ Copy and paste the output below.
 ----------
 
 
-
+-rw-r--r--  1 student  staff  0 Feb 20 15:58 bar.txt
+-rw-r--r--  1 student  staff  0 Feb 20 15:57 foo.txt
 ==========
 9. Create a copy of bar.txt called baz.txt and then list the files again.
 
 
 Write the command that you used to copy the file.  Additionally, copy and paste the output of your file listing below.
 ----------
-
-
+bar.txt	baz.txt	foo.txt
 
 ==========
 10. Delete the file called bar.txt and then list the files again.
 
 Write the command that you used to remove the file.  Copy and paste the output of your file listing below.
-----------
-==========
+---------
+rm bar.txt
+
+baz.txt	foo.txt
+=========
+
 11. Move the file called foo.txt to qux.txt and then list the files again.
 
 
 Write the command that you used to move the file.  Copy and paste the output of your file listing below.
 ----------
+baz.txt	qux.txt
 
 
 
@@ -90,7 +95,9 @@ Write the command that you used to move the file.  Copy and paste the output of 
 
 Write out the command that you used and what happened.
 ----------
+ent-v314-012:mtec1002-lab-03 student$ rmdir my_files/
 
+rmdir: my_files/: Directory not empty
 
 
 ==========
@@ -99,7 +106,7 @@ Write out the command that you used and what happened.
 Write out the command that you used and what happened.
 ----------
 
-
+rm: my_files/: is a directory
 
 ==========
 15. MAKE SURE YOU'RE IN THE mtec1002-lab-03 directory!  
@@ -120,7 +127,7 @@ Use the command called cat on the file to show its contents.
 
 Describe what happened below.
 ----------
-
+a book opened up a ebook file
 
 
 ==========
@@ -133,6 +140,8 @@ Use the command, head, on the file to show the contents of the beginning of the 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
 
+ head pg1232.txt 
+ Title: The Prince
 
 
 ==========
@@ -145,7 +154,10 @@ Use tail on the file to show the contents of the end of the file.
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
 
-
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
 
 ==========
 19. Using the same file...
