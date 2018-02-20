@@ -391,3 +391,5 @@ ls -lrt
 
 Write the command(s) that you used to do this below:
 ----------
+tar -cuf logs.tar logs
+gzip logs.tar
