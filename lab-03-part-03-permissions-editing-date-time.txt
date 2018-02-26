@@ -131,3 +131,12 @@ What commands did you use to do this?
 
 What commands did you use to do this?  Show the output.
 ----------
+Adlm                  Music                    copy_to_backup.sh
+Adobe                 New Unity Project        ipe.properties 
+Applications          Pictures                 isus
+Desktop               Public                   mtec1002-lab-03
+Documents             QLData                   mtec1002-lab-03.tar.gz
+Downloads             Things                   pymel.log
+Library               backup                   stuff
+MPLABXProject         c                        test
+Movies                c.save                   xgen
